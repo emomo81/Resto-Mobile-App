@@ -11,7 +11,9 @@
       "backgroundColor": "#1A1A2E",
       "resizeMode": "contain"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.momoresto.app"
@@ -32,7 +34,8 @@
           "icon": "./assets/images/notification-icon.png",
           "color": "#E2A04A"
         }
-      ]
+      ],
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true
